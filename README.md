@@ -30,9 +30,9 @@
           -    Changes to the main dataset **must be communicated and agreed to by all members** before change can be implemented.  
 -   Each member maintains individual git branch related to their assignment.
      -   Individual Branches contain scripting, schema, etc related to their assignments.
--   Main communication about strategy and workability between tasks to be performed During Class Hours
--   Saturday Zoom meetings 11 AM to review challenges and coordinate eapproval of assignments to main branch.
--   All inter meeting communication to be held via slack channel  **_0fp-kavita-josh-khadijah-rhian**
+-   Main communication about strategy and workability between tasks to be performed during Class Hours
+-   Saturday Zoom meetings 11 AM to review challenges and coordinate approval of assignments to main branch.
+-   All inter meeting communication to be held via Slack channel  **_0fp-kavita-josh-khadijah-rhian**
 -   All members approve main branch changes and README prior to Sunday submissions.
 
 ## SQL Mockup Data Flow
@@ -46,7 +46,7 @@
 
 - Machine learning models will be connected to SQL database in Jupyter notebook importing the following libraries: sqlalchemy & psycopg2.
 
-- The final cleaned & analyzed data will be exported as CSV files to be then utilized in Tableau for visualizations.
+- The final cleaned & analyzed data will be exported as CSV files to be then utilized in Tableau for visualizations as deemed appropriate by group.
 
 
 ## ML Mockup and Data Flow
