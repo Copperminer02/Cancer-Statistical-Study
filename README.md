@@ -15,8 +15,6 @@
 - This dataset, also pulled from Kaggle, tracks sustainability metrics in 173 countries from the year 2000 to 2018. We will be using specific factors from this dataset such as life expectancy, income, emission production, etc.
 
 
-
-
 ## Question to answer
 - Do socioeconomic factors influence the rates of death by cancer?
 - How have these factors changed throughout time?
@@ -24,6 +22,18 @@
 
 
 ## Communication Protocols
+-   Indiviual weekly tasks assigned each Tuesday during regular class hours.
+-   Datasets maintained, cleaned, and stored as a group in the main branch.
+     -    Dastaset updates performed in class hours.
+     -    Group decides final workable dataset for the week.
+     -    Dataset editing can only occur inside indiviual scripts and related to the requirements of that assignment.
+          -    Changes to the main dataset **must be communicated and agreed to by all members** before change can be implemented.  
+-   Each member maintains individual git branch related to their assignment.
+     -   Individual Branches contain scripting, schema, etc related to their assignments.
+-   Main communication about strategy and workability between tasks to be performed During Class Hours
+-   Saturday Zoom meetings 11 AM to review challenges and coordinate eapproval of assignments to main branch.
+-   All inter meeting communication to be held via slack channel  **_0fp-kavita-josh-khadijah-rhian**
+-   All members approve main branch changes and README prior to Sunday submissions.
 
 ## SQL Mockup Data Flow
 - Database will be created and housed in PostgreSQL via pgAdmin.
@@ -56,3 +66,5 @@
     c. These machine learning algorithms were chosen because of they are robust to outliers and non-linear data, run efficiently on large data sets, robust  against overfitting and consistent with the ML algorithms used in biomedical research.
 
 ## Tableau
+
+Final result Dahsboard and viualization anticipated to be performed with Tableau.  Tableau will either link directly to the postgresSQL database or csv outputs from jupyter notebook ML project.
