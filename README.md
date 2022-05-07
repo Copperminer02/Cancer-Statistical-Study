@@ -1,10 +1,27 @@
 # FinalProject_050322
 
 ## Topic and Reason
+- Global Cancer Death Rates between 2000-2018 based on Socioeconomic Factors
+#### Reason?
+- Cancer is the second leading cause of death worldwide, with over 100 different types. The data collected from cancer death rates can be used to track the progression of cancer while also analyzing the sustainability of countries around the world. Our purpose in this project is to better understand these socioeconomical trends of 149 countries and their relation with cancer mortality. 
 
 ## Description of Data Source
+[Link to Cancer Death Rates](https://www.kaggle.com/datasets/bahadirumutiscimen/cancer-death-rates-in-the-world-19902019)
+
+- This dataset from Kaggle shows the total cancer deaths by type of cancer between 1990 and 2019. We will be extracting data from a specific amount of cancer types as well as only from the years 2000-2018 to match our second dataset. 
+
+[Link to Global Sustainability](https://www.kaggle.com/datasets/truecue/worldsustainabilitydataset?select=WorldSustainabilityDataset.csv)
+
+- This dataset, also pulled from Kaggle, tracks sustainability metrics in 173 countries from the year 2000 to 2018. We will be using specific factors from this dataset such as life expectancy, income, emission production, etc.
+
+
+
 
 ## Question to answer
+- Do socioeconomic factors influence the rates of death by cancer?
+- How have these factors changed throughout time?
+- Are certain types of cancer more prevalent in specific regions?
+
 
 ## Communication Protocols
 
