@@ -26,6 +26,18 @@
 ## Communication Protocols
 
 ## SQL Mockup Data Flow
+- Database will be created and housed in PostgreSQL via pgAdmin.
+- Within the database the following tables will be included:
+     - Cancer death rates organized by types and country
+     - Sustainability statistics organized by Country
+     - Sustainability statistics joined with Cancer death rates (joined on country and year)—this will be the “working” table used primarily in the
+          analyses
+     - There may be additional tables generated based on further data analyses
+
+- Machine learning models will be connected to SQL database in Jupyter notebook importing the following libraries: sqlalchemy & psycopg2.
+
+- The final cleaned & analyzed data will be exported as CSV files to be then utilized in Tableau for visualizations.
+
 
 ## ML Mockup and Data Flow
 1.	Explore Clean Data:
