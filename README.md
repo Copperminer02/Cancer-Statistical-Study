@@ -67,4 +67,4 @@
 
 ## Tableau
 
-Final result Dahsboard and viualization anticipated to be performed with Tableau.  Tableau will either link directly to the postgresSQL database or csv outputs from jupyter notebook ML project.
+Final result Dahsboard and visualization anticipated to be performed with Tableau.  Tableau will either link directly to the postgresSQL database or csv outputs from jupyter notebook ML project.
