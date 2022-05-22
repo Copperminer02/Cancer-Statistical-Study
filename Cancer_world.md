@@ -87,7 +87,7 @@ Since our identified dependant variables are continuos data points, regression w
 To process all cancer types more efficiently, each cancer was looped and set as the key value for a resulting dataframe that included the specific cancer chosen and the cleaned sustainability features.
 ![image](https://user-images.githubusercontent.com/91850824/169676225-287190a2-79cb-4232-8233-11e4775a3533.png)
 
-Utilizing the dictionary of dataframes, each cancer was loped and ran against each regression model.  The training and testing scores were printed above a scatter plot comparing predicted to actual death rates.
+Utilizing the dictionary of dataframes, each cancer was looped and ran against each regression model.  The training and testing scores were printed above a scatter plot comparing predicted to actual death rates.
 
 ![image](https://user-images.githubusercontent.com/91850824/169676300-de1db9da-6d12-45e0-942e-1fe724cc8b01.png)
 
