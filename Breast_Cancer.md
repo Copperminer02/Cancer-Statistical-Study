@@ -16,7 +16,7 @@ Breast Cancer Data diagnostics:
 
 This dataset from Kaggle shows the Wisconsin breast cancer diagnostic data set for predictive analysis. Ten values were evaluated for each cell nucleus of the breast mass:
 
-- radius
+- radius - mean of distances from center to points on the perimeter
  
 - texture
  
