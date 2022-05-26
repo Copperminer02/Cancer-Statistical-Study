@@ -17,15 +17,29 @@ Breast Cancer Data diagnostics:
 This dataset from Kaggle shows the Wisconsin breast cancer diagnostic data set for predictive analysis. Ten values were evaluated for each cell nucleus of the breast mass:
 
 - radius
+ 
 - texture
+ 
 - perimeter
+ 
 - area
-- smoothness
-- compactness
-- concavity
-- concave points
-- symmetry
-- fractal dimension
+
+- smoothness - variation in radius lengths, smooth margins suggest benign tumors
+
+- compactness - ratio of the volume & surface area, measures the similarity between the shape of a 
+ breast tumor and fitted circle
+
+- concavity - severity of the concave portions 
+
+- concave points - number of portions around the boundary of the cell with indentations, 
+ higher point means more rough than smooth
+
+- symmetry - observed in breast cancer screening if density increases in one breast compared
+ to another, symmetry is off and indicates possible mass.
+
+- fractal dimension  - a number quantifying how similar the structure remains with changes in
+ length scale and is related to the structural porosity of the tissue samples
+
 
 ## Question to Answer
 Which features have the greatest impact on breast cancer diagnosis?
