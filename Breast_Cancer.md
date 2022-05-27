@@ -39,6 +39,55 @@ This dataset from Kaggle shows the Wisconsin breast cancer diagnostic data set f
 
 - fractal dimension  - a number quantifying how similar the structure remains with changes in
  length scale and is related to the structural porosity of the tissue samples
+Breast Cancer Diagnosis:	
+Diagnosis:
+1.	Benign: growth that is not considered cancer. It will not invade nearby tissue or spread to other parts of the body.
+2.	Malignant: cancerous cells that invade nearby tissue and spread to other parts of the body.
+•	The stage of a breast cancer is determined by the cancer’s characteristics. For instance, the size and the presence or absence of hormone receptors. 
+•	Why is the stage important?
+a.	Determine the prognosis
+b.	Determine best treatment option 
+•	How is breast cancer staged?
+a.	Stage of 0 through IV.
+b.	Stage 0: non-invasive (in original location) to Stage IV: invasive and invaded other parts of the body.
+Source: This information is provided by Breastcancer.org.
+•	Clinical Characteristics:
+a.	T: size category that describe the original primary tumor.
+1.	TX-T4
+b.	N: lymph node involvement: describes tumor’s migration to lymph nodes.
+1.	NX- N3
+c.	Metastasis: describes the tumor’s invasion to other parts of the party.
+1.	MX-M1
+•	Size Measures:
+a.	Radius: mean of distances from the center to points on the perimeter
+b.	Radius worst: "worst" or largest mean value for mean of distances from center to points on the perimeter
+c.	Perimeter: size of the core tumor
+d.	Fractal dimension: mean for coastline approximation -1
+e.	Radius se: standard error for the mean of distances from center to points on the perimeter
+f.	Fractal dimension: mean for "coastline approximation" – 1
+•	Texture Measures:
+1.	Smoothness: Local variation in radius lengths
+2.	Compactness: Mean of Perimeter ^2/area – 1.0
+3.	Concavity: mean of severity of concave portions of the contour
+4.	Concave Points: mean of number of concave portions of the contour
+5.	Texture: standard deviation of gray scale values
+6.	Texture se: standard error for standard deviation of gray-scale values
+7.	Smoothness se: standard error for local variation in radius lengths
+8.	Compactness se: standard error for perimeter^2 / area - 1.0
+9.	Texture worst: "worst" or largest mean value for standard deviation of gray-scale values
+•	Size of Tumors:
+g.	Primary breast tumors vary in shape and size. The smallest lesion that can be felt by hand is typically 1.5 to 2 centimeters (about 1/2 to 3/4 inch) in diameter. Sometimes tumors that are 5 centimeters (about 2 inches) — or even larger — can be found in the breast.
+Source: This information is provided by Breastcancer.org.
+•	Clinical Characteristics:
+a.	T: size category that describe the original primary tumor. Higher T numbers mean a larger tumor and/or wider spread to tissues near the breast. TX-T4
+b.	N: lymph node involvement describes tumor’s migration to lymph nodes. NX- N3
+c.	Metastasis: describes the tumor’s invasion to other parts of the party: MX-M1
+d.	Estrogen Receptor (ER) status: Does the cancer have the protein called an estrogen receptor?
+e.	Progesterone Receptor (PR) status: Does the cancer have the protein called a progesterone receptor?
+f.	HER2 status: Does the cancer make too much of a protein called HER2?
+g.	Grade of the cancer (G): How much do the cancer cells look like normal cells?
+
+The variables in this dataset focus on the size and the texture of to categorize the cancer into benign or malignant cancer.
 
 
 ## Question to Answer
