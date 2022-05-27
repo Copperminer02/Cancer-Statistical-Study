@@ -134,9 +134,90 @@ ML Mockup and Data Flow
 
 Explore Clean Data: a. Descriptive Statistics: Count, Mean, Std, min, 25%, median, 75%, max
 Plot Data: a.Histograms to check normality and distribution
-Create a Training and Test Set of Data a. accuracy, recall, F1 score and precision. c. The F1 score will be used to measure the model’s accuracy and it’s a mean of precision and recall. F1 scores closer to 1 indicate lower false positives and lower false negatives The recall score measures the extent to which the model can correctly identify true positives. The accuracy score is the relationship between the number of correct predictions and total number of predictions. The precision score represents the relationship between the true positives and all positives. d. Determine optimal number of features to be included.
-Model Classification: a. Build classification models to evaluate performance on the training data b. Supervised ML Models: random forest, decision trees, logistic regression, random forest, support vector mechanisms. c. Unsupervised ML Models: clustering, PCA c. These machine learning algorithms were chosen because of they are robust to outliers and non-linear data, run efficiently on large data sets, robust against overfitting and consistent with the ML algorithms used in biomedical research.
+Create a Training and Test Set of Data a. accuracy, recall, F1 score and precision. c. The F1 score will be used to measure the model’s accuracy and it’s a mean of precision and recall. F1 scores closer to 1 indicate lower false positives and lower false negatives The recall score measures the extent to which the model can correctly identify true positives. The accuracy score is the relationship between the number of correct predictions and total number of predictions. The precision score represents the relationship between the true positives and all positives. 
 
+Model Classification: a. Build classification models to evaluate performance on the training data b. Supervised ML Models: random forest, decision trees, logistic regression, random forest, support vector mechanisms. c. The ML models robust against overfitting and consistent with the ML algorithms used in biomedical research.
+
+Supervised Models Classification Report
+Logistic Regression Models: Using Logistic Regression to Predict Breast Cancer Diagnosis:
+   precision    recall  f1-score   support
+
+           0       0.95      0.97      0.96        90
+           1       0.94      0.91      0.92        53
+
+    accuracy                           0.94       143
+   macro avg       0.94      0.94      0.94       143
+weighted avg       0.94      0.94      0.94       143
+
+Support Vector Mechanisms Using All Features
+precision    recall  f1-score   support
+
+           0       0.95      0.99      0.97        90
+           1       0.98      0.91      0.94        53
+
+    accuracy                           0.96       143
+   macro avg       0.96      0.95      0.95       143
+weighted avg       0.96      0.96      0.96       143
+
+Decision Trees Using All Features
+Accuracy Score : 0.9090909090909091
+Classification Report
+              precision    recall  f1-score   support
+
+           0       0.97      0.87      0.92        84
+           1       0.84      0.97      0.90        59
+
+    accuracy                           0.91       143
+   macro avg       0.91      0.92      0.91       143
+weighted avg       0.92      0.91      0.91       143
+
+Random Forest Using All Features
+Accuracy Score : 0.965034965034965
+Classification Report
+              precision    recall  f1-score   support
+
+           0       0.98      0.96      0.97        84
+           1       0.95      0.97      0.96        59
+
+    accuracy                           0.97       143
+   macro avg       0.96      0.97      0.96       143
+weighted avg       0.97      0.97      0.97       143
+
+Features by Importance:
+[(0.14880270244945648, 'concave points_worst'),
+ (0.11373771437548913, 'perimeter_worst'),
+ (0.09863784160265764, 'concave points_mean'),
+ (0.08812880462600081, 'radius_worst'),
+ (0.07912421470226502, 'area_worst'),
+ (0.07183289243373002, 'concavity_mean'),
+ (0.07112163118155258, 'concavity_worst'),
+ (0.04697855582757448, 'area_se'),
+ (0.046698351295552526, 'perimeter_mean'),
+ (0.04013201279677222, 'area_mean'),
+ (0.02980723922949247, 'radius_mean'),
+ (0.01811650137649341, 'radius_se'),
+ (0.017829553286640487, 'compactness_mean'),
+ (0.017667815814524805, 'smoothness_worst'),
+ (0.015370654621446754, 'compactness_worst'),
+ (0.014609224606356414, 'texture_mean'),
+ (0.013653600343979147, 'texture_worst'),
+ (0.008432478543931065, 'perimeter_se'),
+ (0.007305341598365188, 'fractal_dimension_worst'),
+ (0.007211764698972296, 'concave points_se'),
+ (0.006938417964144726, 'symmetry_worst'),
+ (0.006881960462587396, 'concavity_se'),
+ (0.004915601279205796, 'smoothness_mean'),
+ (0.004379183625492492, 'texture_se'),
+ (0.004298387111451206, 'symmetry_se'),
+ (0.00393214080195755, 'symmetry_mean'),
+ (0.0035555755555820986, 'fractal_dimension_se'),
+ (0.003525656418915917, 'compactness_se'),
+ (0.003288730557037211, 'fractal_dimension_mean'),
+ (0.0030854508123727437, 'smoothness_se')]
+
+
+#Conclusion:
+ The best model to be used for diagnosing breast cancer as found in this analysis is Random Forest.
 
 ## Tableau
 
