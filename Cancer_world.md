@@ -109,7 +109,33 @@ The results for each model were then exported to postgressql to be merged for ou
 - The cancer_ml_regressions table was created via joins of the regression model results to create 1 simple table for the tableau dashboard
 - cancer_ml_regressions  and cancer_world exported to csv for import into tableau.
 
-## Tableau
+## Dashboard
 Final result Dahsboard and visualization performed with Tableau. Basic visualization include examination of successful regression model results, further looks into the heaviest weighted features compared to each cancer type, and an overview of the countries with the highest death rate based on the highest weighted features.
 
-[preliminary dashboard click here](https://public.tableau.com/app/profile/josh.shutey/viz/Cancer_eco_data/CancerDeathRatePredictionsBasedonSustainabilityDtaa)
+[Dashboard click here](https://public.tableau.com/app/profile/josh.shutey/viz/Cancer_eco_data/CancerDeathRatePredictionsBasedonSustainabilityData)
+
+![image](https://user-images.githubusercontent.com/91850824/170844640-2c0a487e-1c80-4e2e-90d9-d08e33d4b143.png)
+
+![image](https://user-images.githubusercontent.com/91850824/170844632-3db41667-abf8-41d1-bda1-5324ef9c1549.png)
+
+![image](https://user-images.githubusercontent.com/91850824/170844642-68bbfa49-0686-4f43-9acc-338473e1200b.png)
+
+![image](https://user-images.githubusercontent.com/91850824/170844648-ec2f11d8-2782-46f4-a400-1ad9599e5655.png)
+
+![image](https://user-images.githubusercontent.com/91850824/170844652-0cb42fbb-e136-44e6-aef0-ee71955f22ad.png)
+
+![image](https://user-images.githubusercontent.com/91850824/170844658-51626360-a67f-40e6-b52a-a4692e1ad3fb.png)
+
+## Results and Summary
+
+As can be seen from the dashboard images, we were able to create models with training and testing scores above 80.  Given the nature of this analysis, the independant variables could in no way encompass every factor for each of these cancers and model accuracy over 60 are deemed successful enough to conclude *some* common statistical trending.  Of all models ran, the Random Forest regressor was teh most successful.  
+
+All of the independant variables chosen represent a measure of each countries wealth.  The kmeans analysis results can be seen below.
+
+![image](https://user-images.githubusercontent.com/91850824/170844866-4e7247d8-cc0e-466c-9a3f-1373a8a30df0.png)
+
+The interesting result is that 3 variables continually had a vast majority of weights in the model: **Particulate Emssion Damage, Life Expectancy, and Natural Resoureces Rent**.  Some logical inferences can be made, especially with life expectancy, that the longer one lives the more likely one will die of cancer; however, using this analysis to conclude any relationship concretely would be in error.  Overall, the cancer death rates appeared to generally trend higher to more wealthy countries.  This could be the result of many factors: cancer identification, early deaths to other causes, etc.   Further moremeaningful analysis could be to explore the 3 top features by weight and look at the range where cancer death rates are the highest. (See image below)
+
+![image](https://user-images.githubusercontent.com/91850824/170845098-b8d5aeea-74ff-4418-880f-479e67236afa.png)
+
+Many of these cancers show a wide spread amongst countries with similar economic indicators.  Conversly, as cancer deaths decrease, the poorer countries show less range in cancer deaths.  The question remains why do the more economically advanced countries trend to higher cancer deaths and what makes some of these countries more successful against different cancers.  
