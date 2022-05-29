@@ -14,22 +14,22 @@ Comparison of Death rates by country by cancer against world sustainibility stat
 ###  Files included:
 
 #### Datasets
-     1.   Resources\Data Dictionary.xlsx - definitions and description for WorldSustainanility Dataset.
-     2.   Resources\WorldSustainabilityDataset.csv - Kaggle dataset of economic and environmental statistics by country
-     3.   Resources\total_cancer-deaths-by-type.csv - Kaggle dataset of deaths by cancer type by country.
+   1.   Resources\Data Dictionary.xlsx - definitions and description for WorldSustainanility Dataset.
+   2.   Resources\WorldSustainabilityDataset.csv - Kaggle dataset of economic and environmental statistics by country
+   3.   Resources\total_cancer-deaths-by-type.csv - Kaggle dataset of deaths by cancer type by country.
 
 #### Machine Learing Notebook
-     1.   Cancer_Data_World_Data_regresssion.ipynb - data cleaning, kmeans, linear, decision tree, and random forest regression.
+   1.   Cancer_Data_World_Data_regresssion.ipynb - data cleaning, kmeans, linear, decision tree, and random forest regression.
      
 #### postgresql Files
-     1.   Regression Analysis Tables/SQL code for final table creation & join- sql querry for table join
-     2.   Regression Analysis Tables/cancer_ml_regression.csv - joined model results for tableau
-     3.   Regression Analysis Tables/world_cancer_data.csv - sql export table for tableau
+   1.   Regression Analysis Tables/SQL code for final table creation & join- sql querry for table join
+   2.   Regression Analysis Tables/cancer_ml_regression.csv - joined model results for tableau
+   3.   Regression Analysis Tables/world_cancer_data.csv - sql export table for tableau
      
 #### Analysis folder for physical review of data before export into postgreSQL
 
 ### Dashboard
-     [Cancer World Dashboard click here](https://public.tableau.com/app/profile/josh.shutey/viz/Cancer_eco_data/CancerDeathRatePredictionsBasedonSustainabilityData)
+   [Cancer World Dashboard click here](https://public.tableau.com/app/profile/josh.shutey/viz/Cancer_eco_data/CancerDeathRatePredictionsBasedonSustainabilityData)
 
 ## Project 2 Breat_Cancer.md
 
@@ -38,11 +38,11 @@ Comparison breast cancer diagnosis to clinical findings
 ###  Files included:
 
 #### Datasets
-     1.   data1.csv - Kaggle dataset showing the Wisconsin breast cancer diagnostic data set for predictive analysis
+   1.   data1.csv - Kaggle dataset showing the Wisconsin breast cancer diagnostic data set for predictive analysis
 
 #### Machine Learing Notebook
-     1.   Breast_Cancer_UnsupervisedLearning.ipynb - unsupervised machine learing analysis 
-     2.   breast cancer dataset_KJack_SupervisedLearning.ipynb - supervised machine learning analysis
+   1.   Breast_Cancer_UnsupervisedLearning.ipynb - unsupervised machine learing analysis 
+   2.   breast cancer dataset_KJack_SupervisedLearning.ipynb - supervised machine learning analysis
      
 
      
