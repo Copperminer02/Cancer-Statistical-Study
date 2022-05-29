@@ -28,6 +28,9 @@ Comparison of Death rates by country by cancer against world sustainibility stat
      
 #### Analysis folder for physical review of data before export into postgreSQL
 
+### Dashboard
+     [Cancer World Dashboard click here](https://public.tableau.com/app/profile/josh.shutey/viz/Cancer_eco_data/CancerDeathRatePredictionsBasedonSustainabilityData)
+
 ## Project 2 Breat_Cancer.md
 
 Comparison breast cancer diagnosis to clinical findings
