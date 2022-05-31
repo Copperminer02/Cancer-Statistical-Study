@@ -36,19 +36,6 @@
 - Can socioeconomic factors be used as a predictive tool to predict the rates of death by different cancers?
 - Which factors regression weights will be the most predictive of each cancer?
 
-## Communication Protocols
--   Indiviual weekly tasks assigned each Tuesday during regular class hours.
--   Datasets maintained, cleaned, and stored as a group in the main branch.
-     -    Dastaset updates performed in class hours.
-     -    Group decides final workable dataset for the week.
-     -    Dataset editing can only occur inside indiviual scripts and related to the requirements of that assignment.
-          -    Changes to the main dataset **must be communicated and agreed to by all members** before change can be implemented.  
--   Each member maintains individual git branch related to their assignment.
-     -   Individual Branches contain scripting, schema, etc related to their assignments.
--   Main communication about strategy and workability between tasks to be performed during Class Hours
--   Saturday Zoom meetings 11 AM to review challenges and coordinate approval of assignments to main branch.
--   All inter meeting communication to be held via Slack channel  **_0fp-kavita-josh-khadijah-rhian**
--   All members approve main branch changes and README prior to Sunday submissions.
 
 ## Data exploration
 
