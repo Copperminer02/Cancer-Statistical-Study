@@ -221,4 +221,6 @@ Features by Importance:
 
 ## Tableau
 
-Final result Dahsboard and visualization anticipated to be performed with Tableau. Tableau will either link directly to the postgresSQL database or csv outputs from jupyter notebook ML project.
+[Tableau Link](https://public.tableau.com/shared/J4FT3TN6H?:display_count=n&:origin=viz_share_link)
+
+
