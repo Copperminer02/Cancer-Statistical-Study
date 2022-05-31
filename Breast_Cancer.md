@@ -14,58 +14,17 @@ Breast Cancer Data diagnostics:
 
 [Breast Cancer Wisconsin Diagnostic Data Set](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
 
-This dataset from Kaggle shows the Wisconsin breast cancer diagnostic data set for predictive analysis. Ten values were evaluated for each cell nucleus of the breast mass:
+This dataset from Kaggle shows the Wisconsin breast cancer diagnostic data set for predictive analysis. Ten values were evaluated for each cell nucleus of the breast mass. The variables in this dataset focus on the size and the texture to categorize the cancer into benign or malignant cancer.
 
-- radius - mean of distances from center to points on the perimeter
- 
-- texture
- 
-- perimeter
- 
-- area
+#### Size Measures:
+- Radius: mean of distances from the center to points on the perimeter
+- Radius worst: "worst" or largest mean value for mean of distances from center to points on the perimeter
+- Perimeter: size of the core tumor
+- Fractal dimension: mean for coastline approximation -1
+- Radius se: standard error for the mean of distances from center to points on the perimeter
+- Fractal dimension: mean for "coastline approximation" – 1
 
-- smoothness - variation in radius lengths, smooth margins suggest benign tumors
-
-- compactness - ratio of the volume & surface area, measures the similarity between the shape of a 
- breast tumor and fitted circle
-
-- concavity - severity of the concave portions 
-
-- concave points - number of portions around the boundary of the cell with indentations, 
- higher point means more rough than smooth
-
-- symmetry - observed in breast cancer screening if density increases in one breast compared
- to another, symmetry is off and indicates possible mass.
-
-- fractal dimension  - a number quantifying how similar the structure remains with changes in
- length scale and is related to the structural porosity of the tissue samples
-Breast Cancer Diagnosis:	
-Diagnosis:
-1.	Benign: growth that is not considered cancer. It will not invade nearby tissue or spread to other parts of the body.
-2.	Malignant: cancerous cells that invade nearby tissue and spread to other parts of the body.
-•	The stage of a breast cancer is determined by the cancer’s characteristics. For instance, the size and the presence or absence of hormone receptors. 
-•	Why is the stage important?
-a.	Determine the prognosis
-b.	Determine best treatment option 
-•	How is breast cancer staged?
-a.	Stage of 0 through IV.
-b.	Stage 0: non-invasive (in original location) to Stage IV: invasive and invaded other parts of the body.
-Source: This information is provided by Breastcancer.org.
-•	Clinical Characteristics:
-a.	T: size category that describe the original primary tumor.
-1.	TX-T4
-b.	N: lymph node involvement: describes tumor’s migration to lymph nodes.
-1.	NX- N3
-c.	Metastasis: describes the tumor’s invasion to other parts of the party.
-1.	MX-M1
-•	Size Measures:
-a.	Radius: mean of distances from the center to points on the perimeter
-b.	Radius worst: "worst" or largest mean value for mean of distances from center to points on the perimeter
-c.	Perimeter: size of the core tumor
-d.	Fractal dimension: mean for coastline approximation -1
-e.	Radius se: standard error for the mean of distances from center to points on the perimeter
-f.	Fractal dimension: mean for "coastline approximation" – 1
-•	Texture Measures:
+#### Texture Measures:
 1.	Smoothness: Local variation in radius lengths
 2.	Compactness: Mean of Perimeter ^2/area – 1.0
 3.	Concavity: mean of severity of concave portions of the contour
@@ -75,38 +34,29 @@ f.	Fractal dimension: mean for "coastline approximation" – 1
 7.	Smoothness se: standard error for local variation in radius lengths
 8.	Compactness se: standard error for perimeter^2 / area - 1.0
 9.	Texture worst: "worst" or largest mean value for standard deviation of gray-scale values
-•	Size of Tumors:
-g.	Primary breast tumors vary in shape and size. The smallest lesion that can be felt by hand is typically 1.5 to 2 centimeters (about 1/2 to 3/4 inch) in diameter. Sometimes tumors that are 5 centimeters (about 2 inches) — or even larger — can be found in the breast.
-Source: This information is provided by Breastcancer.org.
-•	Clinical Characteristics:
-a.	T: size category that describe the original primary tumor. Higher T numbers mean a larger tumor and/or wider spread to tissues near the breast. TX-T4
-b.	N: lymph node involvement describes tumor’s migration to lymph nodes. NX- N3
-c.	Metastasis: describes the tumor’s invasion to other parts of the party: MX-M1
-d.	Estrogen Receptor (ER) status: Does the cancer have the protein called an estrogen receptor?
-e.	Progesterone Receptor (PR) status: Does the cancer have the protein called a progesterone receptor?
-f.	HER2 status: Does the cancer make too much of a protein called HER2?
-g.	Grade of the cancer (G): How much do the cancer cells look like normal cells?
 
-The variables in this dataset focus on the size and the texture of to categorize the cancer into benign or malignant cancer.
+
+### Diagnosis:
+- Benign: growth that is not considered cancer. It will not invade nearby tissue or spread to other parts of the body.
+- Malignant: cancerous cells that invade nearby tissue and spread to other parts of the body.
+•	The stage of a breast cancer is determined by the cancer’s characteristics. For instance, the size and the presence or absence of hormone receptors. 
+•	Why is the stage important?
+- Determine the prognosis
+- Determine best treatment option 
+•	How is breast cancer staged?
+- Stage of 0 through IV.
+- Stage 0: non-invasive (in original location) to Stage IV: invasive and invaded other parts of the body.
+
+
+•	Size of Tumors:
+- Primary breast tumors vary in shape and size. The smallest lesion that can be felt by hand is typically 1.5 to 2 centimeters (about 1/2 to 3/4 inch) in diameter. Sometimes tumors that are 5 centimeters (about 2 inches) — or even larger — can be found in the breast.
+
+Source: This information is provided by Breastcancer.org.
 
 
 ## Question to Answer
 Which features have the greatest impact on breast cancer diagnosis?
 
-## Communication Protocols
-
-- Indiviual weekly tasks assigned each Tuesday during regular class hours.
-- Datasets maintained, cleaned, and stored as a group in the main branch.
-- Dastaset updates performed in class hours.
-- Group decides final workable dataset for the week.
-- Dataset editing can only occur inside indiviual scripts and related to the requirements of that assignment.
-- Changes to the main dataset must be communicated and agreed to by all members before change can be implemented.
-- Each member maintains individual git branch related to their assignment.
-- Individual Branches contain scripting, schema, etc related to their assignments.
-- Main communication about strategy and workability between tasks to be performed during Class Hours
-- Saturday Zoom meetings 11 AM to review challenges and coordinate approval of assignments to main branch.
-- All inter meeting communication to be held via Slack channel _0fp-kavita-josh-khadijah-rhian
-- All members approve main branch changes and README prior to Sunday submissions.
 
 ## Data Exploration
 
@@ -119,24 +69,20 @@ Examples below:
 
 
 ## Data Analysis
-### Needs to be finished, more in depth
-In the preprocessing phase for supervised learning, categorical variables were turned into numerical variables in feature encoding. A logistic regression model was designed to predict breast cancer diagnosis
 
 
+### Create a Training and Test Set of Data
+- accuracy, recall, F1 score and precision. 
+- The F1 score will be used to measure the model’s accuracy and it’s a mean of precision and recall. 
+- F1 scores closer to 1 indicate lower false positives and lower false negatives.
+- The recall score measures the extent to which the model can correctly identify true positives. 
+- The accuracy score is the relationship between the number of correct predictions and total number of predictions. 
+- The precision score represents the relationship between the true positives and all positives. 
 
-Database will be created and housed in PostgreSQL via pgAdmin.
-
-Machine learning models will be connected to SQL database in Jupyter notebook importing the following libraries: sqlalchemy & psycopg2.
-
-The final cleaned & analyzed data will be exported as CSV files to be then utilized in Tableau for visualizations as deemed appropriate by group.
-
-ML Mockup and Data Flow
-
-Explore Clean Data: a. Descriptive Statistics: Count, Mean, Std, min, 25%, median, 75%, max
-Plot Data: a.Histograms to check normality and distribution
-Create a Training and Test Set of Data a. accuracy, recall, F1 score and precision. c. The F1 score will be used to measure the model’s accuracy and it’s a mean of precision and recall. F1 scores closer to 1 indicate lower false positives and lower false negatives The recall score measures the extent to which the model can correctly identify true positives. The accuracy score is the relationship between the number of correct predictions and total number of predictions. The precision score represents the relationship between the true positives and all positives. 
-
-Model Classification: a. Build classification models to evaluate performance on the training data b. Supervised ML Models: random forest, decision trees, logistic regression, random forest, support vector mechanisms. c. The ML models robust against overfitting and consistent with the ML algorithms used in biomedical research.
+### Model Classification: 
+- Build classification models to evaluate performance on the training data 
+- Supervised ML Models: random forest, decision trees, logistic regression, random forest, support vector mechanisms. 
+- The ML models robust against overfitting and consistent with the ML algorithms used in biomedical research.
 
 Supervised Models Classification Report
 Logistic Regression Models: Using Logistic Regression to Predict Breast Cancer Diagnosis:
@@ -184,43 +130,76 @@ Classification Report
 weighted avg       0.97      0.97      0.97       143
 
 Features by Importance:
+
 [(0.14880270244945648, 'concave points_worst'),
- (0.11373771437548913, 'perimeter_worst'),
- (0.09863784160265764, 'concave points_mean'),
- (0.08812880462600081, 'radius_worst'),
- (0.07912421470226502, 'area_worst'),
- (0.07183289243373002, 'concavity_mean'),
- (0.07112163118155258, 'concavity_worst'),
- (0.04697855582757448, 'area_se'),
- (0.046698351295552526, 'perimeter_mean'),
- (0.04013201279677222, 'area_mean'),
- (0.02980723922949247, 'radius_mean'),
- (0.01811650137649341, 'radius_se'),
- (0.017829553286640487, 'compactness_mean'),
- (0.017667815814524805, 'smoothness_worst'),
- (0.015370654621446754, 'compactness_worst'),
- (0.014609224606356414, 'texture_mean'),
- (0.013653600343979147, 'texture_worst'),
- (0.008432478543931065, 'perimeter_se'),
- (0.007305341598365188, 'fractal_dimension_worst'),
- (0.007211764698972296, 'concave points_se'),
- (0.006938417964144726, 'symmetry_worst'),
- (0.006881960462587396, 'concavity_se'),
- (0.004915601279205796, 'smoothness_mean'),
- (0.004379183625492492, 'texture_se'),
- (0.004298387111451206, 'symmetry_se'),
- (0.00393214080195755, 'symmetry_mean'),
- (0.0035555755555820986, 'fractal_dimension_se'),
- (0.003525656418915917, 'compactness_se'),
- (0.003288730557037211, 'fractal_dimension_mean'),
- (0.0030854508123727437, 'smoothness_se')]
+
+(0.11373771437548913, 'perimeter_worst'),
+
+(0.09863784160265764, 'concave points_mean'),
+
+(0.08812880462600081, 'radius_worst'),
+
+(0.07912421470226502, 'area_worst'),
+
+(0.07183289243373002, 'concavity_mean'),
+
+(0.07112163118155258, 'concavity_worst'),
+
+(0.04697855582757448, 'area_se'),
+
+(0.046698351295552526, 'perimeter_mean'),
+
+(0.04013201279677222, 'area_mean'),
+
+(0.02980723922949247, 'radius_mean'),
+
+(0.01811650137649341, 'radius_se'),
+
+(0.017829553286640487, 'compactness_mean'),
+
+(0.017667815814524805, 'smoothness_worst'),
+
+(0.015370654621446754, 'compactness_worst'),
+
+(0.014609224606356414, 'texture_mean'),
+
+(0.013653600343979147, 'texture_worst'),
+
+(0.008432478543931065, 'perimeter_se'),
+
+(0.007305341598365188, 'fractal_dimension_worst'),
+
+(0.007211764698972296, 'concave points_se'),
+
+(0.006938417964144726, 'symmetry_worst'),
+
+(0.006881960462587396, 'concavity_se'),
+
+(0.004915601279205796, 'smoothness_mean'),
+
+(0.004379183625492492, 'texture_se'),
+
+(0.004298387111451206, 'symmetry_se'),
+
+(0.00393214080195755, 'symmetry_mean'),
+
+(0.0035555755555820986, 'fractal_dimension_se'),
+
+(0.003525656418915917, 'compactness_se'),
+
+(0.003288730557037211, 'fractal_dimension_mean'),
+
+(0.0030854508123727437, 'smoothness_se')]
 
 
-#Conclusion:
+# Conclusion:
  The best model to be used for diagnosing breast cancer as found in this analysis is Random Forest.
 
-## Tableau
+# Tableau
 
 [Tableau Link](https://public.tableau.com/shared/J4FT3TN6H?:display_count=n&:origin=viz_share_link)
 
+![tableau](https://github.com/Copperminer02/FinalProject_050322/blob/0a999d09b7e4ca90d73c1123cf3fa929cc29ba6a/tableau1.png)
+![tableau](https://github.com/Copperminer02/FinalProject_050322/blob/0a999d09b7e4ca90d73c1123cf3fa929cc29ba6a/tableau2.png)
 
+# Future Analysis/Future Changes
