@@ -126,3 +126,5 @@ The interesting result is that 3 variables continually had a vast majority of we
 ![image](https://user-images.githubusercontent.com/91850824/170845098-b8d5aeea-74ff-4418-880f-479e67236afa.png)
 
 Many of these cancers show a wide spread amongst countries with similar economic indicators.  Conversly, as cancer deaths decrease, the poorer countries show less range in cancer deaths.  The question remains why do the more economically advanced countries trend to higher cancer deaths and what makes some of these countries more successful against different cancers.  
+
+## Future Analysis/Changes
