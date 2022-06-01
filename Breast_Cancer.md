@@ -55,8 +55,8 @@ Source: This information is provided by Breastcancer.org.
 
 
 ## Question to Answer
-Which features have the greatest impact on breast cancer diagnosis?
-
+- Which features have the greatest impact on breast cancer diagnosis?
+- Which classification model has the greatest accuracy of predicting breast cancer diagnosis?
 
 ## Data Exploration
 
