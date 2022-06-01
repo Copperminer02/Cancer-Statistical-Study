@@ -194,6 +194,8 @@ Features by Importance:
 
 # Conclusion:
  The best model to be used for diagnosing breast cancer as found in this analysis is Random Forest.
+ 
+ The features with the greatest impact included: concave points, perimeter, radius and area.
 
 # Tableau
 
@@ -203,3 +205,5 @@ Features by Importance:
 ![tableau](https://github.com/Copperminer02/FinalProject_050322/blob/0a999d09b7e4ca90d73c1123cf3fa929cc29ba6a/tableau2.png)
 
 ## Future Analysis/Future Changes
+
+Future Analysis would include other clinical characteristics: lymph node involvement and metastasis to determine which clinical characteristic had the greatest impact on breast cancer diagnosis.
