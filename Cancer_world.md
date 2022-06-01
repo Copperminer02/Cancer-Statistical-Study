@@ -121,10 +121,12 @@ All of the independant variables chosen represent a measure of each countries we
 
 ![image](https://user-images.githubusercontent.com/91850824/170844866-4e7247d8-cc0e-466c-9a3f-1373a8a30df0.png)
 
-The interesting result is that 3 variables continually had a vast majority of weights in the model: **Particulate Emssion Damage, Life Expectancy, and Natural Resoureces Rent**.  Some logical inferences can be made, especially with life expectancy, that the longer one lives the more likely one will die of cancer; however, using this analysis to conclude any relationship concretely would be in error.  Overall, the cancer death rates appeared to generally trend higher to more wealthy countries.  This could be the result of many factors: cancer identification, early deaths to other causes, etc.   Further moremeaningful analysis could be to explore the 3 top features by weight and look at the range where cancer death rates are the highest. (See image below)
+The interesting result is that 3 variables continually had a vast majority of weights in the model: **Particulate Emssion Damage, Life Expectancy, and Natural Resoureces Rent**.  Some logical inferences can be made, especially with life expectancy, that the longer one lives the more likely one will die of cancer; however, using this analysis to conclude any relationship concretely would be in error.  Overall, the cancer death rates appeared to generally trend higher to more wealthy countries.  This could be the result of many factors: cancer identification, early deaths to other causes, etc.   
+
+## Future Analysis/Changes
+
+Further more meaningful analysis could be to explore the 3 top features by weight and look at the range where cancer death rates are the highest. (See image below)
 
 ![image](https://user-images.githubusercontent.com/91850824/170845098-b8d5aeea-74ff-4418-880f-479e67236afa.png)
 
 Many of these cancers show a wide spread amongst countries with similar economic indicators.  Conversly, as cancer deaths decrease, the poorer countries show less range in cancer deaths.  The question remains why do the more economically advanced countries trend to higher cancer deaths and what makes some of these countries more successful against different cancers.  
-
-## Future Analysis/Changes
