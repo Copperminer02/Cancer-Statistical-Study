@@ -31,6 +31,14 @@
 
 - Net Forest Depletion (% of GNI): calculated as product of unit resource rents & the excess of roundwood harvest over natural growth
 
+- Life Expectancy
+
+- Population
+
+- % Population living in rural area
+
+- % Population living in urban area
+
 
 ## Question to answer
 - Can socioeconomic factors be used as a predictive tool to predict the rates of death by different cancers?
