@@ -201,7 +201,10 @@ Features by Importance:
 
 [Tableau Link](https://public.tableau.com/shared/GS52HRHB8?:display_count=n&:origin=viz_share_link)
 
+- The tableau visualizations represent the 569 samples of the breast cancer diagnosis dataset with 357(63%) of the samples being benign and 212(37%) being malignant. Relationships between the means of all ten values are visualized in the pair plot. This helps us understand the relationship between the individual features and how they are distributed between diagnosis types. 
+- 
 ![tableau](https://github.com/Copperminer02/FinalProject_050322/blob/1c4cdafdbe71f52a3d50910eacbc744e0d84b1d1/tableau1.png)
+
 ![tableau](https://github.com/Copperminer02/FinalProject_050322/blob/1c4cdafdbe71f52a3d50910eacbc744e0d84b1d1/tableau2.png)
 
 ## Future Analysis/Future Changes
